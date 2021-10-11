@@ -4,7 +4,8 @@
 /node_modules
 /.pnp
 .pnp.js
-
+# static folder for DigitalOcean App Platform
+_static
 # testing
 /coverage
 
