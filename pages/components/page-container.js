@@ -1,5 +1,6 @@
 import Head from 'next/head';
 
+
 export default function PageContainer({ title, description, children }) {
   return (
     <div className="container">
@@ -18,6 +19,7 @@ export default function PageContainer({ title, description, children }) {
       </Head>
 
       <main>{children}</main>
+     
 
       <style jsx>{`
         main {

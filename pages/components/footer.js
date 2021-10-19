@@ -9,6 +9,7 @@ import {
   FaCcPaypal,
   FaCcAmazonPay,
 } from 'react-icons/fa';
+import { FcCloseUpMode } from "react-icons/fc";
 
 
 export default function Footer() {
@@ -23,7 +24,7 @@ export default function Footer() {
           <Link href="/">
             <a>Journal</a>
           </Link>
-          <Link href="/">
+          <Link href="/about">
             <a>About</a>
           </Link>
           <Link href="/">
@@ -39,7 +40,7 @@ export default function Footer() {
           </Link>
           <Link href="/">
             <a>
-              <FaTwitter color="#d8d8d8" size="18px" />
+              <FcCloseUpMode color="#d8d8d8" size="18px" />
             </a>
           </Link>
           <Link href="/">
